@@ -39,3 +39,14 @@ Feel free to skip this if you already have `git`, `python` and `uv` installed.
     uv sync
     ```
 
+## A minimal example
+
+The goal is to use FastAPI to create a simple web API (and test it).
+
+FastAPI documentation is providing a [minimal skeleton](https://fastapi.tiangolo.com/#create-it) that we will modify to suit our needs.
+
+The ultimate goal is to have two endpoints:
+- a POST endpoint that posts a user query to the server;
+- a GET endpoint that returns the answer.
+
+The server will choose the right tool amongst 3 based on a very simple heuristic.
